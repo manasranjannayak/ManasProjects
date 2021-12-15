@@ -13,7 +13,7 @@ public class ThrowsDemo {
 
 		System.out.println("Start");
 		try {
-			System.out.println(ThrowsDemo.divideNumbers(10, 0));
+			System.out.println(ThrowsDemo.divideNumbers(10, 5));
 		} catch (ArithmeticException ae) {
 			System.out.println(ae.getMessage());
 		}
